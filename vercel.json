@@ -1,4 +1,7 @@
 {
   "version": 2,
+  "builds": [
+    { "src": "api/generate-clips.ts", "use": "@vercel/edge" }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
