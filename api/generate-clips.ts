@@ -1,6 +1,4 @@
 // Vercel Edge Functions use the standard Web API Request and Response objects.
-// @ts-ignore: Deno-specific type, but Vercel understands it.
-import type { NextRequest } from 'next/server';
 import { GoogleGenAI, Type } from "@google/genai";
 import { Clip } from '../types';
 
